@@ -2,7 +2,7 @@
 
 import simplejson
 import sys
-
+#get price
 def get_price_list(target_id): 
     content = ''
     with open("./all_data.txt", "r") as infile:
